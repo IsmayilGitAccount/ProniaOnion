@@ -151,3 +151,4 @@ C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\refint
 C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\ProniaOnion.API.pdb
 C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\ProniaOnion.API.genruntimeconfig.cache
 C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\ref\ProniaOnion.API.dll
+C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\bin\Debug\net8.0\AutoMapper.dll
