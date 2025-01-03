@@ -10,9 +10,9 @@ using ProniaOnion.Persistence.Contexts;
 
 namespace ProniaOnion.Persistence.Implementations.Repositories
 {
-    internal class ProductRepository:Repository<Product>, IProductRepository
+    internal class ProductRepository : Repository<Product>, IProductRepository
     {
-        public ProductRepository(AppDbContext context):base(context) { }
-       
+        public ProductRepository(AppDbContext context) : base(context) { }
+
     }
 }

@@ -16,7 +16,7 @@ namespace ProniaOnion.Application.MappingProfile
             CreateMap<Category, CategoryItemDTO>();
             CreateMap<Category, GetCategoryDTO>().ReverseMap();
             CreateMap<CreateCategoryDTO, Category>();
-            CreateMap<UpdateCategoryDTO, Category>();
+            CreateMap<UpdateCategoryDTO, Category>().ForMember(c=>c.Id, opt=>opt.Ignore());
         }
     }
 }

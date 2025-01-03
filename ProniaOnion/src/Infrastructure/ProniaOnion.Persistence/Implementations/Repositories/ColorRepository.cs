@@ -9,7 +9,7 @@ using ProniaOnion.Persistence.Contexts;
 
 namespace ProniaOnion.Persistence.Implementations.Repositories
 {
-    internal class ColorRepository:Repository<Color>, IColorRepository
+    internal class ColorRepository : Repository<Color>, IColorRepository
     {
         public ColorRepository(AppDbContext context) : base(context) { }
 

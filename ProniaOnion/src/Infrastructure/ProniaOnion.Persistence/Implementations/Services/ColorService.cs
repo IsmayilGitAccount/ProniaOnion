@@ -62,7 +62,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
         public async Task<GetColorDTO> GetByIdAsync(int id)
         {
-            Color color = await _colorRepository.GetByIdAsync(id);
+            Color color = await _colorRepository.GetByIdAsync(id, nameof(Color.ProductColors));
 
             if (color == null) return null;
 
@@ -81,9 +81,7 @@ namespace ProniaOnion.Persistence.Implementations.Services
 
             //color = _mapper.Map<Color>(colorDTO);
 
-            color.Name = colorDTO.Name;
-
-            color.Id = id;
+            color = _mapper.Map(colorDTO, color);
 
             color.UpdatedAt = DateTime.Now;
 

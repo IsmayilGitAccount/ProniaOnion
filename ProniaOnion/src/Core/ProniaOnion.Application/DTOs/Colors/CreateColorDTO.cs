@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace ProniaOnion.Application.DTOs.Colors
 {
-    public record CreateColorDTO(string Name)
-    {
-    }
+    public record CreateColorDTO(string Name);
+
 }

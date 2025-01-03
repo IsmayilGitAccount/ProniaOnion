@@ -152,3 +152,6 @@ C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\Pronia
 C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\ProniaOnion.API.genruntimeconfig.cache
 C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\obj\Debug\net8.0\ref\ProniaOnion.API.dll
 C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Code Academy\ProniaOnion\presentation\ProniaOnion.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
